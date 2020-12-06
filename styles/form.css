@@ -1,0 +1,50 @@
+body {
+  background-color: #ccc; 
+  
+}
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.input, 
+.submit,
+.select,
+.textarea{
+  margin: 8px;
+  padding: 8px;
+  display: block;
+}
+
+legend{
+  color: #394a77;
+  font-size: 35px;
+  Font-weight: bold;
+}
+
+.checkbox,
+.radio {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.checkbox-text,
+.radio-text {
+  font-size: 23px;
+  position: relative;
+  top: -5px;
+}
+
+.submit {
+  background-color: #394a77;
+  color: #fff;
+  boarder-radius: 5px;
+  boarder: none;
+}
+.submit:hover {
+  background-color: #394a77;
+  color: #fff;
+}
+
